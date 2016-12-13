@@ -5,7 +5,7 @@ var NameField = React.createClass({
     return {value: ''};
   },
   clear: function() {
-    this.setState({value: ''});
+    this.setState({value:''});
   },
   onChange: function(e) {
     this.setState({value: e.target.value})
